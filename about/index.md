@@ -1,9 +1,9 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: Mesin Kasir Restoran
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
+  key: POS
   order: 3
 ---
 
