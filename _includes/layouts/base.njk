@@ -27,11 +27,24 @@
 </table>
     </header>
 
-    
+
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
     
+<div style="overflow-x:auto;">
+<table>
+  <tbody>
+Random Hastag: 
+      <th>
+     {% for tag in collections.tagList | filterTagList %}
+  {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+        <td class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ tagUrl | url }}" class="post-tag">#{{ tag }}</a></td>
+   {% endfor %}
+      </th>
+      </tbody>
+</table>
+</div>
     <footer></footer>
 
     <!-- Current page: {{ page.url | url }} -->

@@ -38,3 +38,6 @@ th:hover {
 .desc {
   font-size: 14px;
 }
+table {
+  width: 100%;
+}
