@@ -9,7 +9,6 @@
   "video": "https://www.youtube.com/watch?v=cBNMRiB9NSc",
   "image": "https://programrestoran.web.app/img/softwarerestoran.webp",
   "icon": "https://www.11ty.dev/img/favicon.png",
-  "cssframework": "https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css",
   "robots": "index, follow",
   "feed": {
     "subtitle": "Software restoran, program restoran integrasi dengan mesin kasir restoran cafe rumah makan - waiters kitchen kasir admin all set.",
