@@ -23,9 +23,7 @@ tags:
 ---
 
 <div class="video">
-<iframe src="{{video}}" title="{{title}}"></iframe>
+<iframe src="{{video}}" loading="lazy" title="{{title}}"></iframe>
 </div>
 
-
 {{fitur.fitur7}}
-

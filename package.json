@@ -1,6 +1,6 @@
 {
   "name": "creativitas-eleventy-seo",
-  "version": "5.0.2",
+  "version": "2.1.2",
   "description": "SEO website template with eleventy by creativitas - https://www.fiverr.com/creativitas/create-your-custom-website-and-app",
   "scripts": {
     "build": "eleventy",

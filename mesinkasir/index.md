@@ -27,4 +27,4 @@ tags:
 
 {{intro}}
 
-<embed src="{{catalog}}" title="{{title}}" width="440px" height="800px"/>
+<embed src="{{catalog}}" title="{{title}}" loading="lazy" width="440px" height="800px"/>
