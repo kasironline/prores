@@ -1,7 +1,6 @@
 ---
 layout: layouts/post.njk
 title: Mesin Kasir Restoran
-templateClass: tmpl-post
 eleventyNavigation:
   key: POS
   order: 3

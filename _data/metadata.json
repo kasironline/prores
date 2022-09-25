@@ -21,11 +21,14 @@
     "path": "/feed/feed.json",
     "url": "https://programrestoran.pages.dev/feed/feed.json"
   },
-  "author": {
-    "name": "Program Restoran",
+  "contact": {
+    "info": "Dan jangan ragu untuk menghubungi kami dan konsultasikan kebutuhan untuk skema konsep system usaha restoran cafe dan rumah makan dengan team kami. ",
+    "was": "Whatsapp",
+    "call": "Call Us",
+    "sent": "Sent Email",
     "wa": "https://wa.me/6285646104747",
     "phone": "tel:+62895339403223",
-    "email": "axcora@gmail.com",
+    "email": "mailto:axcora@gmail.com",
     "url": "https://programrestoran.pages.dev"
   }
 }
