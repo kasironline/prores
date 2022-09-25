@@ -1,21 +1,31 @@
 {
   "title": "Program Restoran",
-  "url": "https://example.com/",
-  "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "url": "https://programrestoran.pages.dev",
+  "gst": "fgCvUavHPC4PNIsCzIJ7u8odSISCCgop6YfhdfOGSX0",
+  "language": "id",
+  "locale": "id_ID",
+  "description": "Software restoran, program restoran integrasi dengan mesin kasir restoran cafe rumah makan - waiters kitchen kasir admin all set.",
+  "tweet": "@hockeycomp",
+  "video": "https://www.youtube.com/watch?v=cBNMRiB9NSc",
+  "image": "https://programrestoran.web.app/img/softwarerestoran.webp",
+  "icon": "https://www.11ty.dev/img/favicon.png",
+  "cssframework": "https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css",
+  "robots": "index, follow",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Software restoran, program restoran integrasi dengan mesin kasir restoran cafe rumah makan - waiters kitchen kasir admin all set.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://programrestoran.pages.dev/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://programrestoran.pages.dev/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "name": "Program Restoran",
+    "wa": "https://wa.me/6285646104747",
+    "phone": "tel:+62895339403223",
+    "email": "axcora@gmail.com",
+    "url": "https://programrestoran.pages.dev"
   }
 }
