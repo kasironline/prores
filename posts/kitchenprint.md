@@ -2,6 +2,7 @@
 title: Cara melakukan print kitchen
 description: Cara waiters mengirimkan pesanan via print kitchen untuk dapur dan bar berdasarkan menu makanan minuman.
 video: https://www.youtube.com/embed/XFFycqsT_S0
+layout: layouts/post.njk
 date: 2022-09-24
 tags:
  - kitchen
@@ -28,13 +29,3 @@ tags:
 
 {{fitur.fitur2}}
 
-```text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-
-// Test with a line break above this line.
-console.log('Test');
-```

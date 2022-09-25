@@ -1,14 +1,21 @@
 ---
 layout: layouts/base.njk
-templateClass: tmpl-post
 ---
 <h3>{{ title }}</h3>
 <h4><a href="{{page.url}}">{{ description }}</a></h4>
-<p>{%- for tag in tags | filterTagList -%}
+<div style="overflow-x:auto;">
+<table>
+<tbody>
+Hastag: 
+<th>
+{%- for tag in tags | filterTagList -%}
 {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
-<a href="{{ tagUrl | url }}" class="post-tag">#{{ tag }}</a>&nbsp;
+<td><a href="{{ tagUrl | url }}" class="post-tag">#{{ tag }}</a></td>
 {%- endfor %}
-</p>
+</th>
+</tbody>
+</table>
+</div>
 {{ content | safe }}
 
 {%- set nextPost = collections.posts | getNextCollectionItem(page) %}

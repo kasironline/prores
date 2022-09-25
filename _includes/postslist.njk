@@ -2,11 +2,6 @@
 {% for post in postslist | reverse %}
   <li>
     <a href="{{ post.url | url }}" class="link">{% if post.data.title %}{{ post.data.title }}{% else %}{{ post.url }}{% endif %}</a>
-    <br/>
-    {% for tag in post.data.tags | filterTagList %}
-      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-      <a href="{{ tagUrl | url }}" class="post-tag">#{{ tag }}</a>
-    {% endfor %}
   </li>
 {% endfor %}
 </ul>
