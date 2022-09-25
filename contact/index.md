@@ -7,10 +7,4 @@ eleventyNavigation:
   order: 4
 ---
 
-{{metadata.contact.info}
-
-<a href="{{metadata.contact.wa}}" class="button">{{metadata.contact.was}}</a> <a href="{{metadata.contact.phone}}" class="button button-outline">{{metadata.contact.call}}</a>
-
-or
-
-<a href="{{metadata.contact.email}}" class="button">{{metadata.contact.sent}}</a>
+{% include "layouts/content/contact.njk" %}
