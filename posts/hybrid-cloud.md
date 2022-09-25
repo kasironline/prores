@@ -1,6 +1,6 @@
 ---
-title: Tutorial penggunaan program restoran lengkap
-description: Cara penggunaan program restoran dengan mesin kasir lengkap tab waiters kitchen dan kasir admin bekerja.
+title: Hybrid Resto Cloud Mode
+description: Melakukan update ke online mode dengan web app integrasi website restoran cafe rumah makan.
 video: https://www.youtube.com/embed/KB5zmhpsIxo
 layout: layouts/post.njk
 date: 2022-09-21
@@ -20,6 +20,9 @@ tags:
  - software
  - aplikasi
  - video
+ - hybrid
+ - cloud
+ - online
 ---
 
 <div class="video">
@@ -27,4 +30,3 @@ tags:
 </div>
 
 {{fitur.fitur5}}
-
